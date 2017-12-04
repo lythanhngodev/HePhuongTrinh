@@ -1,0 +1,9 @@
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\bin\Debug\HePhuongTrinhTests.dll
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\bin\Debug\HePhuongTrinhTests.pdb
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\bin\Debug\HePhuongTrinh.exe
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\bin\Debug\HePhuongTrinh.pdb
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\obj\Debug\HePhuongTrinhTests.csprojResolveAssemblyReference.cache
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\obj\Debug\HePhuongTrinhTests.dll
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinhTests\obj\Debug\HePhuongTrinhTests.pdb

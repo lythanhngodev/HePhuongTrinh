@@ -1,0 +1,6 @@
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinh\bin\Debug\HePhuongTrinh.exe.config
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinh\bin\Debug\HePhuongTrinh.exe
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinh\bin\Debug\HePhuongTrinh.pdb
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinh\obj\Debug\HePhuongTrinh.csprojResolveAssemblyReference.cache
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinh\obj\Debug\HePhuongTrinh.exe
+D:\Hoc tap\Kiem thu phan mem\HePhuongTrinh\HePhuongTrinh\obj\Debug\HePhuongTrinh.pdb

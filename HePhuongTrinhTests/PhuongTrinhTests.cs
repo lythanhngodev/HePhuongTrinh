@@ -14,9 +14,23 @@ namespace HePhuongTrinh.Tests
         [TestMethod()]
         public void BatLoiTest()
         {
-            PhuongTrinh pt = new PhuongTrinh();
-            bool err = pt.BatLoi("3");
-            Assert.AreEqual(true,err);
+            Assert.AreEqual(new PhuongTrinh().BatLoi("2"), true);
+            Assert.AreEqual(new PhuongTrinh().BatLoi("@"), false);
+            Assert.AreEqual(new PhuongTrinh().BatLoi(""), false);
+            Assert.AreEqual(new PhuongTrinh().BatLoi("2f"), false);
+        }
+
+        [TestMethod()]
+        public void DoiChuoiSangSoTest()
+        {
+            Assert.AreEqual(new PhuongTrinh().DoiChuSangSo("3.6"), 3.6f);
+        }
+
+        [TestMethod()]
+        public void gptTest()
+        {
+            Assert.AreEqual(new PhuongTrinh().gpt(0, 0, 0, 0, 0, 0),"VO SO NGHIEM");
+            Assert.AreEqual(new PhuongTrinh().gpt(1, 2, 1, 2, 1, 6), "VO NGHIEM");
         }
     }
 }

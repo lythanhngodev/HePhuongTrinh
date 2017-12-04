@@ -27,16 +27,23 @@ namespace HePhuongTrinh
         public string gpt(float a1, float b1, float c1, float a2, float b2, float c2)
         {
             string ketqua = null;
-            float d, dx, dy;
-            d = a1 * b2 - a2 * b1;
-            dx = c1 * b2 - c2 * b1;
-            dy = a1 * c2 - a2 * c1;
-            if (d == 0 && dx != 0 && dy != 0)
+            float D, Dx, Dy;
+            if ((a1 * a1) + (b1 * b1) != 0 && (a2 * a2) + (b2 * b2) != 0)
+            {
+                D = a1 * b2 - a2 * b1;
+                Dx = c1 * b2 - c2 * b1;
+                Dy = a1 * c2 - a2 * c1;
+                if (D != 0) ketqua = "Nghiem 1: " + Dx / D + " | Nghiem 2: " + Dy / D; ;
+                if (D == 0)
+                {
+                    if (Dx != 0 && Dy != 0) ketqua = "VO NGHIEM";
+                    else if (Dx == 0 && Dy == 0) ketqua = "VO SO NGHIEM";
+                }
+            }
+            else
+            {
                 ketqua = "VO NGHIEM";
-            else if (d == 0 && dx == 0 && dy == 0)
-                ketqua = "VO SO NGHIEM";
-            else if (d != 0 && dx != 0 && dy != 0)
-                ketqua = "Nghiem 1: " + dx/d + " | Nghiem 2: " + dy/d;
+            }
             return ketqua;
         }
         string a1, b1, c1, a2, b2, c2;

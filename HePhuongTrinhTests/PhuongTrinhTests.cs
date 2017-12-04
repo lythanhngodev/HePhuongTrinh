@@ -29,8 +29,9 @@ namespace HePhuongTrinh.Tests
         [TestMethod()]
         public void gptTest()
         {
-            Assert.AreEqual(new PhuongTrinh().gpt(0, 0, 0, 0, 0, 0),"VO SO NGHIEM");
-            Assert.AreEqual(new PhuongTrinh().gpt(1, 2, 1, 2, 1, 6), "VO NGHIEM");
+           Assert.AreEqual(new PhuongTrinh().gpt(0, 0, 0, 0, 0, 0),"VO NGHIEM");
+           Assert.AreEqual(new PhuongTrinh().gpt(1, 0, 0, 0, 1, 0), "VO SO NGHIEM");
+           Assert.AreEqual(new PhuongTrinh().gpt(1, 2, 3, 4, 5, 6), "Nghiem 1: -1 | Nghiem 2: 2");
         }
     }
 }

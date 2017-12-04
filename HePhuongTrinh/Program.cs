@@ -63,7 +63,7 @@ namespace HePhuongTrinh
             //------------------------------------------------//
             if (!pt.BatLoi(pt.a1)||!pt.BatLoi(pt.b1)||!pt.BatLoi(pt.c1)||!pt.BatLoi(pt.a2)||!pt.BatLoi(pt.b2)||!pt.BatLoi(pt.c2))
             {
-                Console.WriteLine("\t:( Nhap sai he so!"+pt._a1+" "+pt._a2);
+                Console.WriteLine("\t:( Nhap sai he so!");
                 goto nhaplai;
             }
             //------------------------------------------------//
